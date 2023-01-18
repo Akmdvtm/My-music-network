@@ -19,6 +19,7 @@
         py-2
         bg-green-600
         text-white
+        text-center
         font-semibold
         text-2xl
         rounded-lg
@@ -38,8 +39,9 @@
         w-full
         mr-1
         py-2
-        bg-green-600
+        bg-blue-600
         text-white
+        text-center
         font-semibold
         text-2xl
         rounded-lg
