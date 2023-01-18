@@ -3,60 +3,45 @@
     <div class="w-full p-6 flex justify-center items-center">
       <div class="w-full max-w-xs">
         <div class="bg-black p-8 shadow rounded mb-6">
-          <h1 class="mb-6 text-lg text-gray-100 font-thin">
-            Let's get rocking!
-          </h1>
           <div class="mb-4">
-            <label class="
-          block
-          uppercase
-          tracking-wade
-          text-xs
-          font-bold
-          mb-2
-          text-gray-100"
+            <TextInput
+                label="email"
+                :label-color="false"
+                placeholder="example@exaple.com"
+                v-model:input="email"
+                inputType="text"
+                :error="'This is a test error'"
             >
-              First Name
-            </label>
-            <input
-                class="
-              appearance-none
-              block
-              w-full
-              bg-white
-              text-gray-700
-              border
-              border-fray-400
-              rounded
-              py-3
-              px-4
-              leading-tight
-              focus:outline-none
-              focus:bg-white
-              focus:border-gray-500
-              "
-                type="text"
-            >
+            </TextInput>
           </div>
-          <span class="text-red-500">
-          This is an error message
-        </span>
+
+          <div class="mb-4">
+            <TextInput
+                label="Password"
+                :label-color="false"
+                placeholder="password"
+                v-model:input="password"
+                inputType="password"
+                :error="'This is a test error'"
+            >
+            </TextInput>
+          </div>
+
           <button
               class="
-        block
-        w-full
-        bg-green-500
-        text-white
-        rounded-sm
-        py-3
-        text-sm
-        tracking-wide
-        "
+                block
+                w-full
+                bg-green-500
+                text-white
+                rounded-sm
+                py-3
+                text-sm
+                tracking-wide
+                "
               type="submit"
           >
-            Register
+            Login
           </button>
-
         </div>
 
         <p class="text-center text-md text-gray-900">
@@ -72,10 +57,11 @@
   </div>
 </template>
 
-<script>
-export default {}
+<script setup>
+import TextInput from "@/components/global/TextInput.vue";
+import {ref} from "vue";
+
+let email = ref(null)
+let password = ref(null)
+
 </script>
-
-<style lang="scss" scoped>
-
-</style>
