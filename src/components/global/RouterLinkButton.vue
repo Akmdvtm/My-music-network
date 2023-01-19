@@ -11,6 +11,7 @@
                 border
                 hover:border-transparent
                 rounded
+                uppercase
               "
       :class="[color ? 'hover:bg-' + color + '-500 border-' + color + '-500': '']"
       :to="url"

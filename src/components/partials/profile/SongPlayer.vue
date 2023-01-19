@@ -17,8 +17,8 @@ const thePlayer = () => {
   new APlayer({
     container: document.getElementById('aplayer'),
     audio: [{
-      name: 'first',
-      artist: 'artist',
+      name: 'HIGHEST IN THE ROOM (feat. Duke, Jones)',
+      artist: 'Travis Scott',
       url: '/music/Travis Scott - HIGHEST IN THE ROOM (feat. Duke, Jones).mp3',
       cover: 'cover.jpg'
     }]
