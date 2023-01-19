@@ -46,10 +46,10 @@
         text-2xl
         rounded-lg
         shadow-md
-        hover:bg-green-500
+        hover:bg-blue-500
         focus:outline-none
         focus:ring-2
-        focus:ring-green-400
+        focus:ring-blue-400
         focus:ring-opacity-75
         cursor-pointer
         "
