@@ -19,7 +19,7 @@
           <RouterLinkButton
               btnText="Edit Profile"
               color="green"
-              url="account/edit-profile"
+              url="/account/edit-profile"
           >
           </RouterLinkButton>
         </div>

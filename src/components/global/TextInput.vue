@@ -7,7 +7,7 @@
           text-xs
           font-bold
           mb-2
-          text-gray-100"
+          "
            :class="[labelColor ? 'text-gray-900' : 'text-gray-100']"
     >
       {{ label }}
