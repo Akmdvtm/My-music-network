@@ -38,6 +38,7 @@
             btnText="Profile"
             color="green"
             url="/account/profile"
+            @click="open = !open"
         ></RouterLinkButton>
         <RouterLinkButton
             class="w-full text-center text-white text-lg mt-4"

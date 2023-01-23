@@ -196,5 +196,6 @@ const crop = () => {
   croppedImageData.top = coordinates.top
   emit('croppedImageData', croppedImageData)
   emit('showModal', false)
+
 }
 </script>

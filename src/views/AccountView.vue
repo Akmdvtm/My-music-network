@@ -10,4 +10,7 @@ import FooterSection from "@/components/stucture/FooterSection.vue";
 </script>
 
 <style lang="scss" scoped>
+#AccountView {
+  min-height: 70vh;
+}
 </style>

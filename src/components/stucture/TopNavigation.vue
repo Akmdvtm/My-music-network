@@ -4,7 +4,7 @@
       <div class="h-full flex items-center">
         <router-link class="flex justify-center items-center"
                      to="">
-          <div class="text-white text-2xl"><b>MSN</b></div>
+          <router-link to="/" class="text-white text-2xl"><b>MSN</b></router-link>
         </router-link>
       </div>
       <div class="h-full flex items-center">
