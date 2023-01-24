@@ -1,7 +1,9 @@
 <template>
-  <TopNavigation></TopNavigation>
-  <router-view/>
+  <div>
+    <router-view/>
+  </div>
 </template>
-<script setup>
-import TopNavigation from "@/components/stucture/TopNavigation.vue";
-</script>
+
+<style lang="scss">
+
+</style>
