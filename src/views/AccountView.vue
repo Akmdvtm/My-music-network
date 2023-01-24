@@ -1,16 +1,18 @@
 <template>
+  <TopNavigation />
   <div id="AccountView" class="max-w-4xl mx-auto">
-    <router-view></router-view>
+    <router-view/>
   </div>
-  <FooterSection></FooterSection>
+  <FooterSection />
 </template>
 
-<script setup>
-import FooterSection from "@/components/stucture/FooterSection.vue";
-</script>
-
-<style lang="scss" scoped>
-#AccountView {
-  min-height: 70vh;
-}
+<style lang="scss">
+  #AccountView {
+    min-height: 70vh;
+  }
 </style>
+
+<script setup>
+  import TopNavigation from '../components/structure/TopNavigation.vue'
+  import FooterSection from '../components/structure/FooterSection.vue'
+</script>

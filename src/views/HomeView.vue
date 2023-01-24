@@ -1,13 +1,11 @@
 <template>
   <div>
-    <HeroSection></HeroSection>
+    <TopNavigation />
+    <HeroSection />
   </div>
 </template>
 
 <script setup>
-import HeroSection from "@/components/partials/HeroSection.vue";
+  import TopNavigation from '../components/structure/TopNavigation.vue'
+  import HeroSection from '../components/partials/HeroSection.vue'
 </script>
-
-<style lang="scss" scoped>
-
-</style>
