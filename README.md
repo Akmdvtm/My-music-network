@@ -1,24 +1,22 @@
-# 
+# My Music Network
 
-## Project setup
+## Setup
+
+### Note
+For this frontend to work you'll need the backend/api section -> https://github.com/Akmdvtm/my-music-api
+
+Clone the repository
 ```
-npm install
+git clone https://github.com/Akmdvtm/My-music-network.git
 ```
 
-### Compiles and hot-reloads for development
+Run these commands
 ```
+cd music-social-network
+
+npm i
+
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You should be good to go!
